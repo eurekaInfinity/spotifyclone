@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { consultaAxios } from "../config/axios"
+import { optionsConsult } from "../config/options"
 
 export default function Home() {
+  consultaAxios(optionsConsult.optionsMusicApi)
   return (
     <div className={styles.container}>
       <Head>
