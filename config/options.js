@@ -21,5 +21,13 @@ export const optionsConsult = {
           'X-RapidAPI-Key': '7b4bec0f5fmsha9a55c4950497c2p119941jsnb36c0e019541',
           'X-RapidAPI-Host': 'musicapi13.p.rapidapi.com'
         }
+      }, 
+      options : {
+        method: 'GET',
+        url: 'https://moviesdatabase.p.rapidapi.com/actors',
+        headers: {
+          'X-RapidAPI-Key': '7b4bec0f5fmsha9a55c4950497c2p119941jsnb36c0e019541',
+          'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
+        }
       }
 }
